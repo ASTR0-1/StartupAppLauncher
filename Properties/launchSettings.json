@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "StartupAppLauncher": {
+      "commandName": "Project"
+    }
+  }
+}
