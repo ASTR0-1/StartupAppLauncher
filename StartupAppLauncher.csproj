@@ -11,4 +11,14 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Paths.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Paths.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

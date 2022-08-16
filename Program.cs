@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace StartupAppLauncher
 {
@@ -10,9 +11,7 @@ namespace StartupAppLauncher
     {
         static void Main()
         {
-            string workingDirectory = Environment.CurrentDirectory;
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
-            string txtPath = projectDirectory + @"\Paths.txt";
+            string txtPath = "Paths.txt";
 
             List<string> executePaths;
 
