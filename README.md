@@ -13,7 +13,7 @@ so it's better to turn it off and relaunch, and when u finally on charge u can u
 <h3><b>⚙️Configuration:</b></h3>
 <b>To setup launcher just unzip the launcher zip and change "Paths.txt" as you wish.</b><br>
 <i>(Or you can manually clone git repo and rebuild it as you wish.)</i><br>
-Zip file: (https://github.com/ASTR0-1/StartupAppLauncher/files/9349542/StartupAppLauncher.zip) <br><br>
+Zip file: (https://github.com/ASTR0-1/StartupAppLauncher/files/9372599/StartupAppLauncher.zip) <br><br>
 
 
 <b>To configure auto-launch on startup you need to add app label into your startup folder:</b><br>
