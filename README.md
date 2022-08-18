@@ -3,7 +3,7 @@
 
 You can append file paths in Paths.txt to modify which apps should be started up.<br>
 
-<ins>It starts apps only when notebook is on charge</ins>.<br>
+<ins>It starts apps only when notebook is in charge state</ins>.<br>
 I've developed it for my notebook to launch needed apps when I'm at home on charge.<br>
 It perfectly fits if you don't want to run a lot of your application each time you start your laptop.<br>
 
