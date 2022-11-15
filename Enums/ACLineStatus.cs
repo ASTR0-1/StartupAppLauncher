@@ -1,6 +1,6 @@
 ﻿namespace StartupAppLauncher.Enums
 {
-    public enum ACLineStatus : byte
+    internal enum ACLineStatus : byte
     {
         Offline = 0,
         Online = 1,

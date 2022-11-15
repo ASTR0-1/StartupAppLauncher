@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace StartupAppLauncher
 {
     [StructLayout(LayoutKind.Sequential)]
-    public class PowerState
+    internal class PowerState
     {
         public ACLineStatus ACLineStatus;
         public BatteryFlag BatteryFlag;

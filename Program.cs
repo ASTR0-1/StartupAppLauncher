@@ -1,9 +1,6 @@
-﻿using StartupAppLauncher.Enums;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using static System.Net.Mime.MediaTypeNames;
+using StartupAppLauncher.Enums;
 
 namespace StartupAppLauncher
 {
@@ -25,7 +22,7 @@ namespace StartupAppLauncher
             // Else if battery is on charge => read paths and execute them
             executePaths = PathsReader.ReadTxt(txtPath);
 
-            foreach(string executePath in executePaths)
+            foreach (string executePath in executePaths)
                 Process.Start(executePath);
         }
     }

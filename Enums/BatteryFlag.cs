@@ -1,6 +1,6 @@
 ﻿namespace StartupAppLauncher.Enums
 {
-    public enum BatteryFlag : byte
+    internal enum BatteryFlag : byte
     {
         High = 1,
         Low = 2,
