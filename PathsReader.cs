@@ -3,23 +3,18 @@ using System.IO;
 
 namespace StartupAppLauncher
 {
-    internal static class PathsReader
+    internal class PathsReader
     {
-        private static readonly List<string> _paths = new();
+        private readonly List<string> Paths = new();
 
-        public static List<string> ReadTxt(string txtPath)
+        public List<string> ReadTxt(string txtPath)
         {
             using StreamReader streamReader = new(txtPath);
 
-            // Skipping instructions
-            for (int i = 0; i < 2; i++)
-                streamReader.ReadLine();
+            while (streamReader.ReadLine() is { } line)
+                Paths.Add(line);
 
-            string line;
-            while ((line = streamReader.ReadLine()) != null)
-                _paths.Add(line);
-
-            return _paths;
+            return Paths;
         }
     }
 }

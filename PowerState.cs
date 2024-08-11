@@ -18,7 +18,7 @@ namespace StartupAppLauncher
 
         public static PowerState GetPowerState()
         {
-            PowerState state = new PowerState();
+            var state = new PowerState();
             if (GetSystemPowerStatusRef(state))
                 return state;
 

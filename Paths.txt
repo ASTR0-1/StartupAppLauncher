@@ -1,8 +1,5 @@
-﻿// Please enter path's like shown below \\
-
-"C:\Program Files (x86)\Skillbrains\lightshot\Lightshot.exe"
+﻿"C:\Program Files (x86)\Skillbrains\lightshot\Lightshot.exe"
 "C:\Users\duhov\AppData\Roaming\Spotify\Spotify.exe"
 "C:\Users\duhov\AppData\Roaming\Telegram Desktop\Telegram.exe"
 "C:\Program Files (x86)\ManicTime\ManicTime.exe"
-"C:\Users\duhov\AppData\Local\Wox\Wox.exe"
 "C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe"
